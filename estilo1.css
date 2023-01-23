@@ -1,0 +1,74 @@
+body {background-image: url(imagenes/imagen2.png);
+    background-repeat: no-repeat;}
+
+header  {color:white;
+    text-align:center;
+font-size:200%;
+background-color: rgba(138,221,45,0);
+} 
+
+p {color:black;
+    text-align:lefts;
+    font-size:200%;
+    font-family: Arial;
+}		
+h1 {color:black;
+    text-align:lefts;
+    font-size:100%;
+    font-family: Arial;
+}		
+
+* {
+margin:0px;
+padding:0px;
+}
+
+#header {
+margin:auto;
+width:500px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+list-style:none;
+}
+
+.nav > li {
+float:right;
+}
+
+.nav li a {
+background-color:#87CEFA;
+color:#fff;
+text-decoration:none;
+padding:15px 145px; /*Hacer mas pequeñas la barra de opciones*/
+display:block;
+}
+
+.nav li a:hover {
+background-color:#434343;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+  }
