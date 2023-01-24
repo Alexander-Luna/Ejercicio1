@@ -1,7 +1,7 @@
 body {background-image: url(imagenes/imagen2.png);
     background-repeat: no-repeat;}
 
-header  {color:white;
+header  {color:rgb(0, 0, 0);
     text-align:center;
 font-size:200%;
 background-color: rgba(138,221,45,0);
@@ -38,10 +38,10 @@ float:right;
 }
 
 .nav li a {
-background-color:#87CEFA;
+background-color:#1e4863;
 color:#fff;
 text-decoration:none;
-padding:15px 145px; /*Hacer mas pequeñas la barra de opciones*/
+padding:20px 11px; /*Hacer mas pequeñas la barra de opciones*/
 display:block;
 }
 

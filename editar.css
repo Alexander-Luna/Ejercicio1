@@ -1,0 +1,21 @@
+.parrafo1{
+	margin: 20px;
+	padding: 10px;
+	background: darkturquoise;
+}
+.h1{
+	/*centrar formulario*/
+	margin: 0 auto;
+	width: 400px;
+	/*Esquema Formulario*/
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+.etiqueta{
+   font-family: times new roman;
+   width: 90px;
+}
+.botones{
+	margin: 20px;
+}
